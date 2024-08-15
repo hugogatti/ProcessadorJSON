@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Processar Arquivos";
+}
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1 class="h1Geral">Processar Arquivos</h1>
+    <nav class="navbarGeral">
+        <div class="containerProcess">
+            <form asp-action="ProcessarArquivos" method="post">
+                <label class="labelProcess" for="pastaCaminho">Caminho da pasta:</label>
+                <input type="text" name="pastaCaminho" id="pastaCaminho" placeholder="C:\'Usuarios'\'NomeDoUsuario'\'Local Do Arquivo CSV'" />
+                <br />
+                <button class="buttonProcess" type="submit">Processar</button>
+            </form>
+        </div>
+    </nav>
+</body>
+</html>
+

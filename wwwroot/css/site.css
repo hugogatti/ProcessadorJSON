@@ -1,0 +1,153 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Fornece contraste contra o fundo branco */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Estilos de rodapé fixos
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Estilos de rodapé fixos
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #000000; /* Letras pretas */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* Margem inferior por altura do rodapé */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Centralize o texto verticalmente ali */
+}
+
+.navbarGeral {
+    background-color: #ffffff; /* Branco */
+    border-bottom: 1px solid #d1d1d1; /* Borda cinza clara */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.h1Geral {
+    color: #003366; /* Azul escuro */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Tela Home/Index.cshtml*/
+
+.pHome {
+    font-size: 1.2em;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.tableHome {
+    margin: 0 auto;
+    border-spacing: 10px;
+}
+
+.containerHome {
+    padding: 20px;
+}
+/*-------------------------------------------------*/
+
+/*Tela About.cshtml*/
+
+.containerAbout {
+    padding: 20px;
+}
+
+.pAbout {
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: left;
+}
+/*-------------------------------------------------*/
+
+/*Tela Processamento/Index.cshtml*/
+
+.containerProcess {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.labelProcess {
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 450px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.buttonProcess {
+    background-color: #003366; /* Azul escuro */
+    color: #ffffff; /* Letras brancas */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #0055a5; /* Azul mais claro */
+    }
+/*-------------------------------------------------*/
