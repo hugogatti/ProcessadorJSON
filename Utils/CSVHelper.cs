@@ -32,7 +32,8 @@ namespace ProcessadorJSON.Utils
                             Data = DateTime.ParseExact(colunas[3], "dd/MM/yyyy", CultureInfo.InvariantCulture),
                             Entrada = TimeSpan.Parse(colunas[4]),
                             Saida = TimeSpan.Parse(colunas[5]),
-                            Almoco = TimeSpan.Parse(colunas[6]),
+                            AlmocoSaida = TimeSpan.Parse(colunas[6]),
+                            AlmocoVolta = TimeSpan.Parse(colunas[7]),
                         };
 
                         //Calcular o total a receber, horas extras, horas débito, etc.
@@ -61,7 +62,7 @@ namespace ProcessadorJSON.Utils
         private static void CalcularHoras(FuncionarioModel funcionario)
         {
             //Implementa lógica para calcular
-            var horasTrabalhadas = (funcionario.Saida - funcionario.Entrada) - funcionario.Almoco;
+            var horasTrabalhadas = (funcionario.Saida - funcionario.Entrada) - (funcionario.AlmocoVolta - funcionario.AlmocoSaida);
 
             if (horasTrabalhadas > TimeSpan.FromHours(8))
             {

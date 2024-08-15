@@ -12,7 +12,8 @@ namespace ProcessadorJSON.Models
         public DateTime Data { get; set; }
         public TimeSpan Entrada { get; set; }
         public TimeSpan Saida { get; set; }
-        public TimeSpan Almoco { get; set; }
+        public TimeSpan AlmocoSaida { get; set; }
+        public TimeSpan AlmocoVolta { get; set; }
         public decimal TotalReceber { get; set; }
         public decimal HorasExtras { get; set; }
         public decimal HorasDebito { get; set; }

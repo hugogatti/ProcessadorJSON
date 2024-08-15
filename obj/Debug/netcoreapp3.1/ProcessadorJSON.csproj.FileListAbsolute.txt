@@ -8,7 +8,6 @@ C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\bin\Debug\netcoreapp3.1\Pr
 C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\bin\Debug\netcoreapp3.1\ProcessadorJSON.pdb
 C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\bin\Debug\netcoreapp3.1\ProcessadorJSON.Views.dll
 C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\bin\Debug\netcoreapp3.1\ProcessadorJSON.Views.pdb
-C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\obj\Debug\netcoreapp3.1\ProcessadorJSON.csproj.AssemblyReference.cache
 C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\obj\Debug\netcoreapp3.1\ProcessadorJSON.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\obj\Debug\netcoreapp3.1\ProcessadorJSON.AssemblyInfoInputs.cache
 C:\Users\hsouza\Desktop\Hugo\AuvoJSON\ProcessadorJSON\obj\Debug\netcoreapp3.1\ProcessadorJSON.AssemblyInfo.cs
