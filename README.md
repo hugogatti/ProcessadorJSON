@@ -43,8 +43,9 @@ Pré-requisitos:
 - .NET 3.1 ou superior
 - Abrir o arquivo ProcessadorJSON.sln com o Visual Studio
 - Para iniciar a aplicação basta ir na aba Depurar(Debug) > Iniciar Depuração (F5)
-- Recomendações: Limpar a Solução e Recompilar a Solução antes de Iniciar.
 - Para testar eu criei uma pasta no Desktop onde tinha os arquivos CSV, fui até a tela Processamento/Index.cshtml copiei o caminho da pasta no desktop e colei no Input e clicar no botão 'Processar'
+- Utilizei os arquivos genericos CSV que estão no repositório para fazer o processamento.
+- Recomendações: Limpar a Solução e Recompilar a Solução antes de Iniciar.
 
 # Estrutura do Projeto
 Controllers: Contém os controladores que lidam com as requisições HTTP.
