@@ -1,6 +1,5 @@
 # ProcessadorJSON
 
-Descrição
 O ProcessadorJSON é uma aplicação para processar arquivos CSV contendo registros de funcionários de diferentes departamentos. A aplicação lê esses arquivos, realiza cálculos específicos como:
 - Total a receber
 - Horas extras
@@ -44,10 +43,12 @@ Pré-requisitos:
 - .NET 3.1 ou superior
 - Abrir o arquivo ProcessadorJSON.sln com o Visual Studio
 - Para iniciar a aplicação basta ir na aba Depurar(Debug) > Iniciar Depuração (F5)
-Recomendações: Limpar a Solução e Recompilar a Solução antes de Iniciar.
+- Recomendações: Limpar a Solução e Recompilar a Solução antes de Iniciar.
+- Para testar eu criei uma pasta no Desktop onde tinha os arquivos CSV, fui até a tela Processamento/Index.cshtml copiei o caminho da pasta no desktop e colei no Input e clicar no botão 'Processar'
 
 # Estrutura do Projeto
 Controllers: Contém os controladores que lidam com as requisições HTTP.
+
 Services: Contém a lógica de negócio para processar os arquivos CSV
 - Chama o ProcessadorJSON.Utils.CSVHelper.
 - Processa o arquivo CSV e criar os objetos DepartamentoModel e FuncionarioModel.
@@ -56,10 +57,12 @@ Services: Contém a lógica de negócio para processar os arquivos CSV
 - Calcula o total de descontos para o departamento.
 - Calcula o total de horas extras para o departamento.
 Models: Contém as classes de modelo.
+
 Utils: Contém classes utilitárias para:
 - leitura de arquivos CSV
 - Calcular o total a receber, horas extras, horas débito, etc.
 - Implementa a lógica para calcular
+  
 Views: Contém as páginas CSHTML por onde vai ser necessário navegar entre as telas, para que a aplicação possa processar arquivos CSV.
 - Home/Index.cshtml
 - Home/About.cshtml
